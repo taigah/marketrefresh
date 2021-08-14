@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+deno run --allow-net="ftx.com" --allow-env="XDG_DATA_HOME" --allow-write src/main.ts

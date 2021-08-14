@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+deno install --allow-net="ftx.com" --allow-env="XDG_DATA_HOME" --allow-write -n marketrefresh $@ src/main.ts
